@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Font-Name&family=Optional-2nd-Font-Name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
 
 :root {
   --primary-color: #123456;
@@ -7,8 +7,8 @@
   --accent1-color: #abcdef;
   --accent2-color: #fedcba;
 
-  --heading-font: 'Font-Name', serif;
-  --paragraph-font: 'Optional-2nd-Font-Name', serif;
+  --heading-font: 'Lora', serif;
+  --paragraph-font: 'Roboto', sans-serif;
 
   --nav-background-color: #333333;
   --nav-link-color: #ffffff;
@@ -51,4 +51,14 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+header {
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+  text-align: center;
+  padding: var(--header-padding);
+  font-size: var(--header-font-size);
+  font-family: var(--heading-font);
+  border-bottom: 2px solid var(--secondary-color);
 }
