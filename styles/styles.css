@@ -118,19 +118,12 @@ aside h2 {
     margin-top: 0;
 }
 
-/*
-aside img {
-    width: 100%;
-    border-radius: 12px;
-    margin: 12px 0;
-}*/
-
 aside img {
     width: 200px;
     height: auto;
-    display: block;
+    /*display: block;
     margin: 12px auto;
-    border-radius: 12px;
+    border-radius: 12px;*/
 }
 
 /*
