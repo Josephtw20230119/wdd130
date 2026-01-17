@@ -12,28 +12,62 @@ header {
     border-bottom: 1px solid #e6e6e6;
 }
 
+/*
 header nav {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
+*/
+nav {
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-bottom: 1px solid #e6e6e6;
+}
 
+/*
 header nav a {
     text-decoration: none;
     color: #333;
     padding: 8px 14px;
     border-radius: 8px;
+}*/
+
+nav a {
+    display: block;
+    color: #333;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 8px;
+
 }
 
+nav a:hover {
+    background-color: #eef2ff;
+}
+
+/*
 header nav a:hover {
     background-color: #eef2ff;
 
 }
-
+*/
+/*
 main {
     max-width: 840px;
     margin: 40px auto;
     padding: 24px;
+}
+*/
+main {
+    max-width: 840px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
 }
 
 main h1 {
@@ -42,6 +76,7 @@ main h1 {
     margin-bottom: 24px;
 }
 
+/*
 main img {
     width: 150px;
     height: auto;
@@ -49,6 +84,16 @@ main img {
     margin: 0 auto 20px;
     padding: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+*/
+main img {
+    width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 0 6x 12px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto 20px;
     border-radius: 12px;
 }
 
@@ -63,7 +108,7 @@ aside {
     margin: 40px auto;
     max-width: 500px;
     border-radius: 16px;
-    box-shadow: 0 6px 8px rgpa(0, 0, 0, 0.08);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
 }
 
 aside h2 {
@@ -71,12 +116,22 @@ aside h2 {
     margin-top: 0;
 }
 
+/*
 aside img {
     width: 100%;
     border-radius: 12px;
     margin: 12px 0;
+}*/
+
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 12px auto;
+    border-radius: 12px;
 }
 
+/*
 footer {
     margin-top: 60px;
     padding: 20px;
@@ -84,6 +139,15 @@ footer {
     background-color: #f6f7fb;
     color: #555;
     font-size: 0.9rem;
+}*/
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    color: #5555;
+    background-color: #f6f7fb;
 }
 
 footer p {
