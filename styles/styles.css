@@ -1,41 +1,91 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    background: #f6f7fb;
+    color: #222;
+}
+
+header {
+    background-color: #fff;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+header nav a:hover {
+    background-color: #eef2ff;
+
+}
+
 main {
-    max-width: 840 px;
+    max-width: 840px;
+    margin: 40px auto;
+    padding: 24px;
 }
 
 main h1 {
     color: #000;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid #000;
+    display: block;
+    margin: 0 auto 20px;
     padding: 10px;
-    box-shadow: #000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+main p {
+    line-height: 1.6;
+    font-size: 1rem;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 6px 8px rgpa(0, 0, 0, 0.08);
+}
+
+aside h2 {
     text-align: center;
+    margin-top: 0;
 }
 
 aside img {
-    max-width: 200px;
-    max-height: auto;
-}
-
-aside p {
-    padding: 0;
+    width: 100%;
+    border-radius: 12px;
+    margin: 12px 0;
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+    margin-top: 60px;
+    padding: 20px;
     text-align: center;
+    background-color: #f6f7fb;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
 }
