@@ -55,7 +55,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -65,6 +65,14 @@ h1 {
     background-color: var(--accent-color);
     color: #fff;
 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 16px;
 }
 
 .hero article img {
