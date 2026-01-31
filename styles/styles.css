@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
@@ -12,6 +18,20 @@ header {
     border-bottom: 1px solid #e6e6e6;
 }
 
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
+}
+
+.indent {
+    padding-left: 2rem;
+}
+
+/* Class Selector */
 /*
 header nav {
     display: flex;
@@ -96,6 +116,7 @@ main img {
     display: block;
     margin: 0 auto 20px;
     border-radius: 12px;
+    float: right;
 }
 
 main p {
@@ -104,13 +125,16 @@ main p {
 }
 
 aside {
-    background-color: #fff;
+    /*background-color: #fff;
     padding: 20px;
-    margin: 40px auto;
+    border: 1px solid #ccc;
+    margin: 40px auto;*/
     max-width: 500px;
     border-radius: 16px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
-    border: 1px solid #ccc;
+    width: 20em;
+    text-align: center;
+
 }
 
 aside h2 {
