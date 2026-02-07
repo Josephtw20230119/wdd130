@@ -5,7 +5,7 @@
 
 :root {
     --primary-color: #1e90ff;
-    --secondary-color: #2e8b57;
+    --secondary-color: #004a99;
     --accent-color: #ffcc00;
     --body-font: Arial, Helvetica, sans-serif;
     --heading-font: "Segoe UI", Arial, sans-serif;
@@ -81,7 +81,13 @@ header nav a {
     border: 1px solid #333;
     text-decoration: none;
     color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
 
+}
+
+header nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 /* ===========================
@@ -181,7 +187,15 @@ header nav a {
     object-fit: cover;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s, filter 0.3s ease;
 
+}
+
+.adventures-container figure:hover img {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.1);
+    cursor: pointer;
 }
 
 .adventures-container figcaption {
@@ -189,6 +203,12 @@ header nav a {
     font-weight: bold;
     font-size: 0.9rem;
     color: var(--secondary-color);
+
+}
+
+.adventures-container figure:hover figcaption {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
 }
 
 /* ==============================
