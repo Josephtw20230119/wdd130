@@ -196,8 +196,8 @@ header nav a {
     ============================= */
 
 footer {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 1rem 2rem;
     background-color: #d1c4e9;
@@ -205,26 +205,31 @@ footer {
 }
 
 footer p {
+    grid-column: 2;
     margin: 0;
+    text-align: center;
+    white-space: nowrap;
     color: #333;
 }
 
 /* ===========================
     Others
     ========================== */
-.socialmedia {
+footer .socialmedia {
+    grid-column: 3;
     display: flex;
+    justify-content: flex-end;
     gap: 15px;
 }
 
-.socialmedia img {
+footer .socialmedia img {
     width: 30px;
     height: 30px;
     border: 1px solid #333;
-    background-color: 2px;
+    background-color: #fff;
     padding: 2px;
 }
 
-.socialmedia a {
+footer .socialmedia a {
     text-decoration: none;
 }
