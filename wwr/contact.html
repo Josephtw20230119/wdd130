@@ -4,10 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Contact our rafting team for booking and questions">
+    <meta name="author" content="Tsung Ying Wu">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
+    <header>
+        <img class="logo" src="images/rafting.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="company-info">
+
+            <h1>White Water Rafting Company</h1>
+
+            <address>
+                Main River Street<br>
+                Kolob, California<br>
+                Phone : <a href="tel:+886912345678">+886 912-345-678</a><br>
+                Email : <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </address>
+
+        </div>
+        <div class="contact-container">
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen=""
+                  loading="lazy" title="Google Map Location">
+                </iframe>
+            </div>
+
+            <form action="#" method="post">
+                <label>
+                    Name
+                    <input type="text" name="name" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" required>
+                </label>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label>
+                        <input type="radio" name="mp" value="General_Inquiry">General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="mp" value="Reservation_Question">Reservation
+                        Question
+                    </label>
+                    <label>
+                        <input type="radio" name="mp" value="Website_Suggestion">Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label>
+                    Message
+                    <textarea id="message" name="message" rows="6"></textarea>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch</button>
+            </form>
+        </div>
+
+        <section class="employee_profiles">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee_profiles_container">
+
+                <figure>
+                    <img src="images/employee1.jpg" alt="River Guide">
+                    <figcaption>River_Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Office Manager">
+                    <figcaption>Office Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Safety Instructor">
+                    <figcaption>Safety Instructor</figcaption>
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 🛶 2026 White Water Rafting 🛶 Tsung Ying Wu</p>
+
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.jpeg" alt="Visit our Facebook">
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+                <img src="images/linked_in.jpeg" alt="Visit our LinkedIn">
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.png" alt="Visit our Instagram">
+            </a>
+
+        </nav>
+    </footer>
 
 </body>
 
