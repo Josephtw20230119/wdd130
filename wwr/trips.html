@@ -4,11 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trips</title>
+    <title>Trips | White Water Rafting</title>
+    <meta name="description"
+      content="Explore our rafting trips with photos, details, and pricing. Contact us to book your adventure.">
+    <meta name="author" content="Tsung Ying Wu">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+    <header>
+        <img class="logo" src="images/rafting.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
 
+    </header>
+    <main>
+
+        <!-- Banner + CTA to Contact -->
+        <section class="trips-banner">
+            <img src="images/cover.jpg" alt="Exciting rafting trip on a river">
+            <div class="trips-banner-content">
+                <h1>Our Trips</h1>
+                <p>Pick the best trip for your group. Not sure? Contact us and we will help you.</p>
+                <a href="contact.html" class="cta-button">Contact Us to Book</a>
+            </div>
+        </section>
+
+        <!-- 3 Detailed Trip Descriptions (not single column) -->
+        <section class="trips-cards">
+            <h2>Featured Trips</h2>
+
+            <article class="trip-card">
+                <img src="images/adv2_scenic_float.jpg" alt="Scenic float rafting trip">
+                <div>
+                    <h3>Scenic Float (Beginner)</h3>
+                    <p>A calm trip for families and first-timers. Learn basic paddling and enjoy the
+                        views.</p>
+                    <ul>
+                        <li><strong>Length:</strong> 2–3 hours</li>
+                        <li><strong>Difficulty:</strong> Easy</li>
+                        <li><strong>Price:</strong> $49</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="trip-card">
+                <img src="images/adv3_family_fun.jpg" alt="Family fun rafting trip">
+                <div>
+                    <h3>Family Fun Run (Intermediate)</h3>
+                    <p>A mix of fun rapids and safe guidance. Great for friends and groups.</p>
+                    <ul>
+                        <li><strong>Length:</strong> Half-day</li>
+                        <li><strong>Difficulty:</strong> Medium</li>
+                        <li><strong>Price:</strong> $89</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="trip-card">
+                <img src="images/adv1_extreme_rapids.jpg" alt="Extreme white water rapids">
+                <div>
+                    <h3>Extreme Rapids (Advanced)</h3>
+                    <p>Big waves and fast water for confident adventurers. Safety briefing required.
+                    </p>
+                    <ul>
+                        <li><strong>Length:</strong> Full-day</li>
+                        <li><strong>Difficulty:</strong> Hard</li>
+                        <li><strong>Price:</strong> $129</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+
+        <section class="trips-layout">
+            <section class="trips-table-section">
+                <h2>All Available Trips</h2>
+
+                <table class="trips-table">
+                    <caption>Trips, difficulty, length, and price</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Trip</th>
+                            <th scope="col">Difficulty</th>
+                            <th scope="col">Length</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Scenic Float</td>
+                            <td>Easy</td>
+                            <td>2–3 hours</td>
+                            <td>$49</td>
+                        </tr>
+                        <tr>
+                            <td>Family Fun Run</td>
+                            <td>Medium</td>
+                            <td>Half-day</td>
+                            <td>$89</td>
+                        </tr>
+                        <tr>
+                            <td>Extreme Rapids</td>
+                            <td>Hard</td>
+                            <td>Full-day</td>
+                            <td>$129</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <aside class="trips-aside">
+                <h2>Questions?</h2>
+                <p>Need help choosing a trip? Send us a message and we will reply.</p>
+                <a href="contact.html" class="cta-button">Contact Us</a>
+            </aside>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 🛶 2026 White Water Rafting 🛶 Tsung Ying Wu</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.jpeg" alt="Visit our Facebook">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+                <img src="images/linked_in.jpeg" alt="Visit our LinkedIn">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.png" alt="Visit our Instagram">
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
